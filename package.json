@@ -1,0 +1,29 @@
+{
+  "name": "SquirrelDBRedisService",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mwongka/SquirrelDBRedisService.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mwongka/SquirrelDBRedisService/issues"
+  },
+  "homepage": "https://github.com/mwongka/SquirrelDBRedisService#readme",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0",
+    "redis": "^2.6.2"
+  }
+}
